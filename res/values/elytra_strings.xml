@@ -124,4 +124,8 @@
     <string name="games_device_spoof_title">Unlock higher FPS in games</string>
     <string name="games_device_spoof_summary">Spoof device as a high-end model in certain games, to unlock higher FPS</string>
 
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+
 </resources>
