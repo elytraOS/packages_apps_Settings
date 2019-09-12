@@ -42,7 +42,8 @@ public class ElytraVersionPreferenceController extends BasePreferenceController 
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    private static final String KEY_ELYTRA_VERSION_PROP = "ro.elytra.build.version";
+    private static final String KEY_ELYTRA_VERSION_PROP = "ro.elytra.base.version";
+    private static final String KEY_ELYTRA_CODENAME_PROP = "ro.elytra.base.codename";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -73,8 +74,14 @@ public class ElytraVersionPreferenceController extends BasePreferenceController 
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_ELYTRA_VERSION_PROP,
+        String elytraVersion = SystemProperties.get(KEY_ELYTRA_VERSION_PROP,
                 mContext.getString(R.string.unknown));
+        String elytraCodename = SystemProperties.get(KEY_ELYTRA_CODENAME_PROP,
+                mContext.getString(R.string.unknown));
+        if (!elytraVersion.isEmpty())
+            return elytraVersion + " | " + elytraCodename;
+        else
+            return mContext.getString(R.string.elytra_version_default);
     }
 
     @Override
