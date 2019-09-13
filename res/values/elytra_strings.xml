@@ -43,4 +43,8 @@
 
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
+
+    <!-- elytra version -->
+    <string name="elytra_version">Elytra version</string>
+    <string name="elytra_version_default">Unknown</string>
 </resources>
