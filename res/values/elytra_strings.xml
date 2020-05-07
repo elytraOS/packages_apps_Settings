@@ -48,4 +48,7 @@
     <string name="elytra_version">Elytra version</string>
     <string name="elytra_version_default">Unknown</string>
     <string name="elytra_uri" translatable="false">https://github.com/elytraOS</string>
+
+    <!-- Elytra maintainer -->
+    <string name="maintainer">Maintainer</string>
 </resources>
