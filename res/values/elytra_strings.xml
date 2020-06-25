@@ -51,4 +51,5 @@
 
     <!-- Elytra maintainer -->
     <string name="maintainer">Maintainer</string>
+    <string name="elytra_maintainer" translatable="false">Unofficial Maintainer</string>
 </resources>
