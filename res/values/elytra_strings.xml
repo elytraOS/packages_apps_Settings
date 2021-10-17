@@ -140,4 +140,8 @@
 
     <!-- Density category -->
     <string name="density_category">Density options</string>
+
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
 </resources>
