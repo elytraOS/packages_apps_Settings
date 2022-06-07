@@ -4321,6 +4321,20 @@
                 <action android:name="settings.intelligence.battery.action.CLEAR_BATTERY_CACHE_DATA"/>
             </intent-filter>
         </receiver>
+
+        <!-- AirPods settings -->
+        <service
+            android:name=".bluetooth.AirPodsBatteryService"
+            android:exported="true" />
+
+        <receiver
+            android:name=".bluetooth.AirPodsBatteryInitializer"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
