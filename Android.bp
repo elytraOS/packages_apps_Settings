@@ -78,6 +78,7 @@ android_library {
         "lottie",
         "windowExtLib",
         "VendorSupport-preference",
+        "battery-settingsgoogle",
     ],
 
     libs: [
@@ -142,4 +143,10 @@ filegroup {
 filegroup {
     name: "Settings_manifest",
     srcs: ["AndroidManifest.xml"],
+}
+
+java_import {
+    name: "battery-settingsgoogle",
+    jars: ["libs/battery-settings.jar"],
+    sdk_version: "current",
 }
