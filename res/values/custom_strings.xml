@@ -306,4 +306,7 @@
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+
+    <!-- Summary for list to control apps that ignore battery saving restrictions -->
+    <string name="high_power_apps_summary">Battery optimization availability</string>
 </resources>
