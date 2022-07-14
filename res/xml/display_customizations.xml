@@ -181,16 +181,6 @@
             android:title="@string/quick_settings_quick_pull_down_title"
             android:summary="@string/quick_settings_quick_pull_down_summary"
             android:defaultValue="false" />
-
-        <com.elytra.support.preferences.SystemSettingSeekBarPreference
-            android:key="qs_transparency"
-            android:title="@string/qs_transparency_title"
-            android:summary="@string/qs_transparency_summary"
-            android:defaultValue="100"
-            settings:interval="1"
-            settings:units="%"
-            android:max="100"
-            android:min="1" />
     </PreferenceCategory>
 
     <PreferenceCategory
