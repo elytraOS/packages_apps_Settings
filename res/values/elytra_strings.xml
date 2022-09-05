@@ -282,4 +282,7 @@
 
     <!-- Battery health -->
     <string name="battery_health_title">Battery health</string>
+
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
 </resources>
