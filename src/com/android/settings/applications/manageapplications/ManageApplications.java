@@ -157,7 +157,7 @@ public class ManageApplications extends InstrumentedFragment
         MenuItem.OnActionExpandListener {
 
     static final String TAG = "ManageApplications";
-    static final boolean DEBUG = Build.IS_ENG;
+    static final boolean DEBUG = Build.IS_DEBUGGABLE;
 
     // Intent extras.
     public static final String EXTRA_CLASSNAME = "classname";
