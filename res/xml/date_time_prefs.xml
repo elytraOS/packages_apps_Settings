@@ -75,6 +75,13 @@
         <SwitchPreference
             android:key="24 hour"
             android:title="@string/date_time_24hour" />
+
+    <Preference
+	android:key="clock_settings"
+        android:title="@string/clocksettings_title"
+        android:summary="@string/clocksettings_summary"
+        android:fragment="com.android.settings.elytra.fragments.StatusBarSettings" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
