@@ -76,6 +76,13 @@
         <intent android:action="android.intent.action.MANAGE_UNUSED_APPS"/>
     </Preference>
 
+    <!-- Games Props -->
+    <com.android.settings.support.SecureSettingSwitchPreference
+        android:key="games_device_spoof"
+        android:title="@string/games_device_spoof_title"
+        android:summary="@string/games_device_spoof_summary"
+        android:defaultValue="false"/>
+
     <Preference
         android:key="app_battery_usage"
         android:order="17"
